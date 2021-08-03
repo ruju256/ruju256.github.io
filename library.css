@@ -1,0 +1,707 @@
+/** properties for the body element of libary **/
+body {
+    width:  inherit;
+    height: 100%;
+    background-color: #B6E5D8;
+}
+/** general properties for the top-most grid element of libary **/
+.top-grid{
+    
+    background-color:#8FDDE7;
+    height:50px;
+    width:inherit;
+    padding:2px;
+    border-style: none;
+ /** general properties for the  left side of the top-most grid element of libary **/
+}
+.left-top-grid{
+  display: grid;
+  float: left;
+  justify-content: space-evenly;
+  grid-template-columns: auto auto auto  auto;
+  grid-template-rows: auto;
+  grid-area: auto;
+  align-content:space-evenly;
+  grid-gap: auto;
+  row-gap: auto;
+  column-gap: 6px;
+  
+
+}
+/** general properties for the right  side of the top-most grid element of libary **/
+.right-top-grid{
+    float: right;
+    height: 50px;
+    width: 250px;
+    background-color:#8FDDE7;
+   
+}
+
+/** general properties for the drop-down button on the  top-most grid element of libary. Button is on the right of the grid **/
+.top-grid-dropdown-button{
+    height: 50px;
+    width: 250px;
+    border-style:none ;
+    margin: 2px; 
+    padding: 2px;
+    position:absolute;
+    cursor: pointer;
+    background-color:#8FDDE7;
+    
+}
+/**properties for the the link in the  drop down button, located on the right side of the top-most grid**/
+.top-grid-dropdown-button a{
+    color: black;
+    text-decoration: none;
+}
+/** properties fot the list in the left-top-grid**/
+
+.left-top-grid li{
+    display: inline;
+    align-content:space-evenly;
+}
+/**background color turns honeydew if the mouse is hovered on the right-side of the top most grid and on the button on the same grid**/
+.top-grid a:hover,.right-top-grid:hover .top-grid-dropdown-button{
+    background-color: honeydew;
+} 
+/**properties for the content in the drop-down of the right side of the top most grid**/
+.top-right-dropdown-content{
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+/**properties for the links in the drop-down content**/
+.top-right-dropdown-content a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align:left;
+    
+}
+/**when a pointer is hovered over the link on the dropdown contents, it turns honeydrew color in the background**/
+.top-right-dropdown-content a:hover{
+    background-color: honeydew;
+}
+/**when a pointer is hovered on the right-top-grid the .top-right-dropdown-content should display in a block format the contents in the drop-down**/
+.right-top-grid:hover .top-right-dropdown-content{
+    display: block;
+}
+/**properties for the down-arrow on the .top-grid-dropdown-button which is on the right side of the grid**/
+.down-arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    padding: 3px;
+    transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  margin: 2px 2px 2px 4px ;
+  float: right;
+  }
+/**properties for  the  search bar on the left-side of the .top-grid**/
+  .search-bar{
+      width: 350px;
+      border-style: none;
+      height: 30px;
+      margin:10px;
+  }
+ 
+/**properties for the nav bar on the left side of the main contents area of the page**/
+  /**.nav{
+    float:left;
+    width:200px;
+    height:710px;
+    background-color: lightcoral;
+
+  }
+  /**properties for the main section for the site**/
+ .main{
+     width:inherit;
+     height: 900px;
+     background-color: lawngreen;
+ }
+
+/**properties for the ul of the nav bar on the left side of the main contents section**/
+  .left-div {
+  list-style-type: none;
+  margin: 4% 3% 3% 0%;
+  padding:0;
+  width: 200px;
+  height:700px;
+
+
+  }
+  /**when a pointer is hovered over the the ul and on the li and the htmldropdownbtn, the background color should turn honeydrew **/
+
+.left-div a:hover,.html-dropdown:hover .htmldropdownbtn{
+    background-color: honeydew;
+} 
+/**properties for the image on the htmldropdownbtn on the nav bar**/
+.htmldropdownbtn img{
+    border-radius: 50%;
+    float:left;
+    margin: 2px;
+}
+/**properties for the  li htmldropdownbtn on the nav bar **/
+.htmldropdownbtn {
+    height: 50px;
+    width:200px;
+    background-color:tomato;
+    position: relative;
+    
+    
+
+}
+/**properties for the link in the li in htmldropdownbtn **/
+.htmldropdownbtn a{   
+    height: 50px;
+    width:200px;
+    display: block;
+    position:absolute;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    text-align: center;   
+}
+/**when a pointer is hovered the li htmldropdownbtn which is in the nav the background color of the htmldropdownbtn should change to the honeydew color**/
+.nav a:hover,.left-div:hover .htmldropdownbtn{
+    background-color: honeydew;
+} 
+/**properties for the html-dropdowncontent that is in the drop-down**/
+
+.html-dropdowncontent{
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    list-style:none;
+}
+/**properties for the link in the  html-dropdowncontent in the drop-down section**/
+.html-dropdowncontent a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align:left;
+    padding: 12px 16px;  
+}
+
+
+/**when a pointer is hovered over the html-dropdowncontent  the link background color should change to the honeydrew color**/
+.html-dropdowncontent a:hover{
+    background-color: honeydew;
+}
+/**when a pointer is hovered over the htmldropdownbtn the html-dropdowncontent displays its contents in block form**/
+.htmldropdownbtn:hover .html-dropdowncontent{
+    display: block;
+}
+/** properties on the image of the js-dropdownbtn **/
+.js-dropdownbtn img{
+    border-radius: 50%;
+    float:left;
+    margin: 2px;
+}
+/**properties for the js-dropdownbtn on the nav bar**/
+.js-dropdownbtn{
+    height: 50px;
+    width:200px;
+    background-color:rgb(225, 210, 41);   
+}
+/**properties for the links in the js-dropdownbtn **/
+.js-dropdownbtn a{
+    height: 50px;
+    width:200px;
+    text-align: center;
+    display: block;
+    position:absolute;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;   
+}
+/**when a pointer hovers over the js-dropdowncontent that is inside the left-div on the nav, the background color should turn honeydrew**/
+.nav a:hover,.left-div:hover .js-dropdowncontent{
+    background-color: honeydew;
+} 
+/**properties for the js-dropdowncontent in the dropdown**/
+.js-dropdowncontent{
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+/**properties for the links in the js-dropdowncontent **/
+.js-dropdowncontent a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align:left;
+    padding: 12px 16px;
+    
+}
+/**when a pointer is hovered over the js-dropdowncontent the background color turns honeydew**/
+.js-dropdowncontent a:hover{
+    background-color: honeydew;
+}
+/**when a pointer hovers over the js-dropdownbtn the js-dropdowncontent is displayed in block form **/
+.js-dropdownbtn:hover .js-dropdowncontent{
+    display: block;
+}
+/**properties for the image of JSES6-dropdownbtn **/
+.JSES6-dropdownbtn img{
+    border-radius: 50%;
+    float:left;
+    margin: 2px;
+}
+/**properties for the JSES6-dropdownbtn  in the nav bar **/
+.JSES6-dropdownbtn{
+    height: 50px;
+    width: 200px;
+    background-color:yellowgreen;
+}
+/**properties for  JSES6-dropdownbtn links **/
+.JSES6-dropdownbtn a{
+    height: 50px;
+    width: 200px;
+    display: block;
+    position:absolute;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+/**properties for jQuery-dropdownbtn  image**/
+.jQuery-dropdownbtn img{
+    border-radius: 50%;
+    float:left;
+    margin: 2px;
+}
+/**properties for  jQuery-dropdownbtn **/
+.jQuery-dropdownbtn {
+    height: 50px;
+    width: 200px;
+    background-color:white;
+}
+/**properties for the links in jQuery-dropdownbtn **/
+.jQuery-dropdownbtn a{
+    height: 50px;
+    width: 200px;
+    display: block;
+    position:absolute;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+/**properties for the image of Ruby-dropdownbtn **/
+.Ruby-dropdownbtn img{
+    border-radius: 50%;
+    float:left;
+    margin: 2px;
+}
+/**properties of Ruby-dropdownbtn in the nav bar  **/
+.Ruby-dropdownbtn {
+    height: 50px;
+    width: 200px;
+    background-color:hsl(0, 78%, 58%);
+}
+/**properties of links in Ruby-dropdownbtn **/
+.Ruby-dropdownbtn a{
+    height: 50px;
+    width: 200px;
+    display: block;
+    position:absolute;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+/**properties of image of Rails5-dropdownbtn **/
+.Rails5-dropdownbtn img{
+    border-radius: 50%;
+    float:left;
+    margin: 2px;
+}
+/**properties of Rails5-dropdownbtn in the nav bar **/
+.Rails5-dropdownbtn {
+    height: 50px;
+    width: 200px;
+    background-color: white;
+}
+/**properties for Rails5-dropdownbtn  links **/
+.Rails5-dropdownbtn a{
+    height: 50px;
+    width: 200px;
+    display: block;
+    position:absolute;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+/** properties for PHP-dropdownbtn image**/
+.PHP-dropdownbtn img{
+    border-radius: 50%;
+    float:left;
+    margin: 2px;
+}
+/**properties for PHP-dropdownbtn in the nav bar  **/
+.PHP-dropdownbtn {
+    height: 50px;
+    width: 200px;
+    background-color: #787CB5;
+}
+/**properties  for the PHP-dropdownbtn links **/
+.PHP-dropdownbtn a{
+    height: 50px;
+    width: 200px;
+    display: block;
+    position:absolute;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+/**properties for the Java-dropdownbtn  image **/
+.Java-dropdownbtn img{
+    border-radius: 50%;
+    float:left;
+    margin: 2px;
+}
+/**properties for the Java-dropdownbtn in the nav bar **/
+.Java-dropdownbtn {
+    height: 50px;
+    width: 200px;
+    background-color: #5382a1;
+}
+/**properties for Java-dropdownbtn links **/
+.Java-dropdownbtn a{
+    height: 50px;
+    width: 200px;
+    display: block;
+    position:absolute;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+/**propeerties of the Python-dropdownbtn image **/
+.Python-dropdownbtn img{
+    border-radius: 50%;
+    float:left;
+    margin: 2px;
+}
+/**properties of Python-dropdownbtn  in the nav bar  **/
+.Python-dropdownbtn {
+    height: 50px;
+    width: 200px;
+    background-color: #FFD43B;
+}
+/**properties of Python-dropdownbtn  links **/
+.Python-dropdownbtn a{
+    height: 50px;
+    width: 200px;
+    display: block;
+    position:absolute;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+/**properties of the image in the Command-dropdownbtn **/
+.Command-dropdownbtn img{
+    border-radius: 50%;
+    float:left;
+    margin: 2px;
+}
+/**properties of the Command-dropdownbtn  in the nav bar **/
+.Command-dropdownbtn {
+    height: 50px;
+    width: 200px;
+    background-color: grey;
+}
+/**properties of the .Command-dropdownbtn links **/
+.Command-dropdownbtn a{
+    height: 50px;
+    width: 200px;
+    display: block;
+    position:absolute;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+/**properties on the Git-dropdownbtn image **/
+.Git-dropdownbtn img{
+    border-radius: 50%;
+    float:left;
+    margin: 2px;
+}
+/**properties on the Git-dropdownbtn on the nav bar **/
+.Git-dropdownbtn {
+    height: 50px;
+    width: 200px;
+    background-color: #F1502F;
+}
+/**properties for the Git-dropdownbtn links **/
+.Git-dropdownbtn a{
+    height: 50px;
+    width: 200px;
+    display: block;
+    position:absolute;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+/**properties of the  SQL-htmldropdownbtn image **/
+.SQL-htmldropdownbtn img{
+    border-radius: 50%;
+    float:left;
+    margin: 2px;
+}
+/**properties of the SQL-htmldropdownbtn  in the nav bar  **/
+.SQL-htmldropdownbtn {
+    height: 50px;
+    width: 200px;
+    background-color: white;
+}
+/**properties of the SQL-htmldropdownbtn **/
+.SQL-htmldropdownbtn a{
+    height: 50px;
+    width: 200px;
+    display: block;
+    position:absolute;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+/**properties for the Sass-dropdownbtn image**/
+.Sass-dropdownbtn img{
+    border-radius: 50%;
+    float:left;
+    margin: 2px;
+}
+/**properties for the Sass-dropdownbtn in the nav bar**/
+.Sass-dropdownbtn {
+    height: 50px;
+    width: 200px;
+    background-color: #ed8cbc;
+}
+/**properties for the Sass-dropdownbtn link **/
+.Sass-dropdownbtn a{
+    height: 50px;
+    width: 200px;
+    display: block;
+    position:absolute;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+/**properties for the Go-dropdownbtn  image **/
+.Go-dropdownbtn img{
+    border-radius: 50%;
+    float:left;
+    margin: 2px;
+}
+/**properties for the Go-dropdownbtn **/
+.Go-dropdownbtn {
+    height: 50px;
+    width: 200px;
+    background-color: #00C5CD;
+}
+ /**properties for the links in  Go-dropdownbtn **/
+.Go-dropdownbtn  a{
+    height: 50px;
+    width: 200px;
+    display: block;
+    position:absolute;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+/**properties for the image of React-dropdownbtn **/
+.React-dropdownbtn img{
+    border-radius: 50%;
+    float:left;
+    margin: 2px;
+}
+/**properties for the React-dropdownbtn  in the nav bar**/
+.React-dropdownbtn {
+    height: 50px;
+    width: 200px;
+    background-color: #61DBFB;
+}
+/**properties for the links in React-dropdownbtn **/
+.React-dropdownbtn  a{
+    height: 50px;
+    width: 200px;
+    display: block;
+    position:absolute;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+/**properties for the image Node.js-dropdownbtn **/
+.Nodejs-dropdownbtn img{
+    border-radius: 50%;
+    float:left;
+    margin: 2px;
+}
+/**properties for the Node.js-dropdownbtn  in the nav bar **/
+.Nodejs-dropdownbtn {
+    height: 50px;
+    width: 200px;
+    background-color: #68A063;
+}
+/**properties of the links of Node.js-dropdownbtn **/
+.Nodejs-dropdownbtn a{
+    height: 50px;
+    width: 200px;
+    display: block;
+    position:absolute;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+/**properties for the div-grid on the right side of the main contents section **/
+.right-div{
+    display: grid;
+    float: right;
+    height: 70px;
+    width: 85%;
+    background-color: brown;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto;
+    justify-content: center;
+
+}
+/**properties for the links of the div-grid on the right side of the main contents section **/
+.right-div a{
+    text-decoration: none;
+}
+/**the properties of the image of the All-div element on the the div-grid **/
+.All-div  img{
+    align-self: center;
+}
+/**properties of the .All-div section on the left side of the .right-div element**/
+.All-div {
+ float:left;
+ height: 50px;
+ width:500px;
+ list-style: none;
+ border-style: none;
+}
+/**properties for the All-div-dropdown-button that is on the All section**/
+.All-div-dropdown-button{
+    height: 50px;
+    width:500px;
+    border-style: none;
+}
+/**properties for the All-div-dropdown-content inside the All-div-dropdown-button **/
+.All-div-dropdown-content{
+    display: none;
+    position: absolute;
+    
+    width: 500px;
+    height:500px;
+    text-align: center;
+    align-content: center;
+    float:left;
+}
+/**properties of the  links in the All-div-dropdown-content in the All-div section.  **/
+
+.All-div-dropdown-content a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align:center;
+}
+/**when a pointer hovers over the All-div the All-div-dropdown-content displays in block format**/
+.All-div:hover .All-div-dropdown-content{
+    display: block;
+}
+/**when a pointer hovers over the All-div and the All-div-dropdown-button the background color should turn honeydew**/
+ .All-div:hover .All-div-dropdown-button{
+    background-color: honeydew;
+    }
+
+
+/**properties for the Favorites section on the right side of the .right-div in the main section**/
+.div-Favorites{
+    float: right;
+    height: 50px;
+    width:500px;
+    list-style: none;
+}
+/**properties for the div-Favorites-dropdown-button that is inside  the  div-Favorites **/
+.div-Favorites-dropdown-button{
+    height: 50px;
+    width:500px;
+    border-style: none;
+}
+/** when a pointer hovers over .div-Favorites and the div-Favorites-dropdown-button the background color turns honeydew **/
+.div-Favorites:hover .div-Favorites-dropdown-button{
+    background-color: honeydew;
+} 
+/**when the pointer hovers over the div-Favorites the  div-Favorites-dropdown-content should display in block **/
+.div-Favorites :hover .div-Favorites-dropdown-content{
+    display: block;
+}
+/**properties for the div-Favorites-dropdown-content in the  div-Favorites-dropdown-button section **/
+.div-Favorites-dropdown-content{
+    display: none;
+    position: absolute;
+    
+    width: 500px;
+    height:500px;
+    float:right;
+}
+/**properties for the links in the div-Favorites-dropdown-content**/
+.div-Favorites-dropdown-content a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align:center; 
+}
+/**when the pointer hovers over the div-Favorites the div-Favorites-dropdown-content should be displated in block**/
+.div-Favorites:hover .div-Favorites-dropdown-content{
+    display: block;
+}
+/**properties for the contactus div at the footer of the page**/
+.contactus{
+    height:25px;
+    width:80px;
+    float:right;
+    background-color: tomato;
+    border-color: tomato;
+    border-style:outset;
+    font-size:small;
+    padding:2px;
+}
+/** properties on the links on the contact us element **/
+.contactus a{
+    text-decoration: none;
+}
+
+

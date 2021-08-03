@@ -1,0 +1,516 @@
+html{
+    width: 100%;
+}
+
+body {
+    background-color:#B6E5D8;
+    border-radius: 25%;
+    min-height: 100%;
+    height: 100%;
+    width: inherit;
+    position: relative;
+}
+/* .universal-div {
+    width: 100%;
+    height: 100%;
+    background-color: #889AA4;
+    
+} */
+
+.grid-container{
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-left: 100px;
+}
+.grid-item{
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/* .courses-content {
+    padding:45px;
+    margin:10px;
+    height:fit-content;
+    width: fit-content;
+    background-color:aliceblue;  
+    align-content: center;
+    
+} */
+
+.HTMLCSS {
+    background-color:tomato;
+    height:250px;
+    width:200px;
+    margin:2px;
+    padding: 2px;
+    float:left;
+    border: outset;
+    font-size: large;
+    border-color:white;
+    border-radius: 25px;
+    text-align: center;
+
+}
+.HTMLCSS p{
+font-size: small;
+}
+
+.HTMLCSS img{
+  border-radius:50% ;
+}
+.JavaScript {
+    background-color:rgb(225, 210, 41);
+    height:250px;
+    width:200px;
+    margin:2px;
+    padding:2px;
+    border-color:white;
+    float: left;
+    border: outset;
+    font-size: large;
+    border-radius: 25px;
+    text-align: center;
+}
+.JavaScript p{
+    font-size: small;
+}
+.JavaScript img {
+    border-radius:50% ;
+    
+}
+.jQuery {
+    background-color :white;
+    height:250px;
+    width:200px;
+    margin:2px;
+    padding:2px;
+    float:right;
+    border-color: white;
+    font-size: large;
+    border: outset;
+    border-radius: 25px;
+    text-align: center;
+}
+.jQuery p{
+    font-size: small;
+}
+.jQuery img{
+    border-radius:50% ;
+}
+.Ruby {
+    background-color :hsl(0, 78%, 58%);
+    height:250px;
+    width:200px;
+    margin:2px;
+    padding:2px;
+    float:right;
+    border: outset;
+    border-color: white;
+    font-size: large;
+    border-radius: 25px;
+    text-align: center;
+}
+.Ruby p {
+    font-size: small;
+}
+.Ruby img{
+    border-radius:50% ;
+}
+.RubyonRails5{
+    background-color :white;
+    height:250px;
+    width:200px;
+    margin:2px;
+    padding:2px;
+    border-color: white;
+    border: outset;
+    float:left;
+    font-size:large;
+    border-radius: 25px;
+    text-align: center;
+   
+}
+.RubyonRails5 p{
+    font-size: small;
+
+} 
+.RubyonRails5 img{
+
+   border-radius:50% ;
+
+} 
+.Java{
+    background-color :#5382a1;
+    height:250px;
+    width:200px;
+    margin:2px;
+    padding:2px;
+    float:left;
+    border: outset;
+    border-color: white;
+    font-size:large;
+    border-radius: 25px;
+    text-align: center;
+}
+.Java p{
+    font-size: small;
+}
+.Java img{
+    border-radius:50% ;
+}
+.PHP{
+    background-color :#787CB5;
+    border-color: white;
+    height:250px;
+    width:200px;
+    margin:2px;
+    padding:2px;
+    float:right;
+    font-size:large;
+    border: outset;
+    border-radius: 25px;
+    text-align: center;
+}
+.PHP p{
+    font-size: small;
+
+}
+.PHP img{
+    border-radius:50% ;
+
+}
+.Python{
+    background-color :#FFD43B;
+    height:250px;
+    width:200px;
+    margin:2px;
+    padding:2px;
+    float:right;
+    border-color: white;
+    border: outset;
+    font-size:large;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.Python p{
+    font-size: small;
+}
+.Python img{
+    border-radius:50% ;
+}
+
+.Git{
+    background-color:#F1502F;
+    height:250px;
+    width:200px;
+    margin:2px;
+    padding:2px;
+    float:left;
+    border-color: white;
+    font-size:large;
+    border: outset;
+    border-radius: 25px;
+    text-align: center;
+}
+.Git p{
+    font-size: small;  
+
+}
+.Git img{
+    border-radius:50% ; 
+
+}
+.SQL{
+    background-color :white;
+    height:250px;
+    width:200px;
+    margin:2px;
+    padding:2px;
+    float:left;
+    border: outset;
+    border-color: white;
+    font-size:large;
+    border-radius: 25px;
+    text-align: center;
+}
+.SQL p{
+    font-size: small; 
+}
+.SQL img{
+    border-radius:50% ; 
+}
+.Sass{
+    background-color :#ed8cbc;
+    height:250px;
+    border-color: white;
+    width:200px;
+    margin:2px;
+    padding:2px;
+    float:right;
+    font-size:large;
+    border-radius: 25px;
+    border: outset;
+    text-align: center;
+}
+.Sass p{
+    font-size: small; 
+}
+
+.Go{
+    background-color: #00C5CD;
+    border-color: white;
+    height:250px;
+    width:200px;
+    margin:2px;
+    padding:2px;
+    float:left;
+    border: outset;
+    font-size:large;
+    border-radius: 25px;
+    text-align: center;
+
+}
+.Go p{
+    font-size: small; 
+}
+.Go img{
+    border-radius:50% ; 
+}
+.React{
+    background-color :#61DBFB;
+    height:250px;
+    border-color: white;
+    width:200px;
+    margin:2px;
+    padding:2px;
+    float:right;
+    border: outset;
+    font-size:large;
+    border-radius: 25px;
+    text-align: center;
+}
+.React p{
+    font-size: small; 
+}
+.React img{
+    border-radius:50% ; 
+}
+.Nodejs{
+    background-color :#68A063;
+    border-color: white;
+    height:250px;
+    width:200px;
+    margin:2px;
+    padding:2px;
+    float:right;
+    border: outset;
+    font-size:large;
+    border-radius: 25px;
+    text-align: center;
+}
+.Nodejs p{
+    font-size: small; 
+
+}
+
+.CommandLine{
+    background-color :grey;
+    height:250px;
+    width:200px;
+    margin:2px;
+    padding:2px;
+    float:left;
+    border: outset;
+    font-size:large;
+    border-color: white;
+    border-radius: 25px;
+    text-align: center;
+}
+.CommandLine p{
+    font-size: small; 
+}
+.CommandLine img{
+  border-radius: 50%;
+}
+.refactorylogo{
+
+ padding:1px;
+ width:80px; 
+ height:50px;
+
+}
+
+.stores{
+    padding:2px;
+    display: inline;
+    font-size:small;
+    height: 100px;
+    width: 150px;
+    margin: 3px;
+    
+    
+}
+.copy{
+    float:left; 
+    font-size: small;
+}  
+    
+
+
+.services li{
+    font-size: small;
+}
+
+.support li{
+    font-size: small;
+     
+}
+
+.connect li{
+    font-size: small;  
+        
+}
+.contactus{
+    height:25px;
+    width:80px;
+    float:right;
+    background-color: tomato;
+    border-color: tomato;
+    border-style:outset;
+    font-size:small;
+    padding:2px;
+    
+
+}
+
+span{
+    background-color:gray;
+    border-radius: 50%;
+
+}
+.summary{
+    font-size:medium;
+    text-align: center;
+}
+
+
+.footer{
+    width:inherit;
+    height:380px;
+    background-color: #8FDDE7;
+    padding: 10px;
+   }
+.closure{
+    height: 50px;
+    width: 1200px;
+    
+}
+.info-grid{
+    display: grid;
+    gap: auto ;
+    column-gap: auto;
+    row-gap: auto;
+    float: center;
+    grid-area: auto;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-content:center;
+      
+}
+ul{
+list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.top-grid{
+    
+    background-color:#8FDDE7;
+    height:50px;
+    width:inherit;
+    padding:2px;
+    border-style: none;
+    
+}
+.left-top-grid{
+  display: grid;
+  float: left;
+  justify-content: space-evenly;
+  grid-template-columns: auto auto auto  auto;
+  grid-template-rows: auto;
+  grid-area: auto;
+  align-content:space-evenly;
+  grid-gap: auto;
+  row-gap: auto;
+  column-gap: 6px;
+  width:500px;
+
+}
+.right-top-grid{
+    display: grid;
+    float: right;
+    overflow: hidden;
+    height: 50px;
+    width: 250px;
+    background-color:#8FDDE7;
+   
+}
+.top-grid-dropdown-button{
+    height: 50px;
+    width: 250px;
+    border-style:none ;
+    margin: 2px; 
+    padding: 2px;
+    position:absolute;
+    cursor: pointer;
+    background-color:#8FDDE7;
+}
+
+.left-top-grid li{
+    display: inline;
+    align-content:space-evenly;
+}
+
+.top-grid a:hover,.right-top-grid:hover .top-grid-dropdown-button{
+    background-color: honeydew;
+} 
+
+.top-right-dropdown-content{
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+.top-right-dropdown-content a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align:left;
+    
+}
+.top-right-dropdown-content a:hover{
+    background-color: honeydew;
+}
+.right-top-grid:hover .top-right-dropdown-content{
+    display: block;
+}
+.down-arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  margin: 2px 2px 2px 4px ;
+  float:bottom;
+  }

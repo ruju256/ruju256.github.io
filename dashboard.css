@@ -1,0 +1,963 @@
+/**properties for the html and body section **/
+html,body{
+    height: 100%;
+    width: 100%;
+}
+/**properties for the header section on the dashboard. **/
+.header{
+    
+    background-color:#8FDDE7;
+    height:50px;
+    width:inherit;
+    padding:2px;
+    border-style: none;
+    
+}
+/**properties for the left-top-grid which is on the header section of the page**/
+.left-top-grid{
+  display: grid;
+  float: left;
+  justify-content: space-evenly;
+  grid-template-columns: auto auto auto  auto;
+  grid-template-rows: auto;
+  grid-area: auto;
+  align-content:space-evenly;
+  grid-gap: auto;
+  row-gap: auto;
+  column-gap: 6px;
+  width:500px;
+
+}
+/**properties for the right-top-grid that is on the header section of the page**/
+.right-top-grid{
+    display: grid;
+    float: right;
+    overflow: hidden;
+    height: 50px;
+    width: 250px;
+    background-color:#8FDDE7;
+   
+}
+/**properties for the top-grid-dropdown-button which is on the right  side of the header section **/
+.top-grid-dropdown-button{
+    height: 50px;
+    width: 250px;
+    border-style:none ;
+    margin: 2px; 
+    padding: 2px;
+    position:absolute;
+    cursor: pointer;
+    background-color:#8FDDE7;
+}
+/**properties for the lists on the left-top-grid  on the header section**/
+.left-top-grid li{
+    display: inline;
+    align-content:space-evenly;
+}
+
+/**when a pointer is hovered over the top-grid-dropdown-button which is on the header section the background color should turn to honeydew **/
+.header a:hover,.right-top-grid:hover .top-grid-dropdown-button{
+    background-color: honeydew;
+} 
+/**properties for the top-right-dropdown-content which is located on the header section of the page. **/
+.top-right-dropdown-content{
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+/**properties for the links in the top-right-dropdown-content which is in the right part of the header section**/
+.top-right-dropdown-content a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align:left;
+    
+}
+/**when a pointer is hovered on the links on the op-right-dropdown-content the background color should turn honeydew**/
+.top-right-dropdown-content a:hover{
+    background-color: honeydew;
+}
+/**when a pointer hovers on the right-top-grid the top-right-dropdown-content should be displayed in block **/
+.right-top-grid:hover .top-right-dropdown-content{
+    display: block;
+}
+/**properties for the downarrow on the header**/
+.down-arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  margin: 2px 2px 2px 4px ;
+  float:bottom;
+  }
+/**properties of the main section on the Dashboard page**/
+  .main{
+      width:inherit;
+      height:1400px;
+      background-color: #B6E5D8;
+      padding: 5px;
+      
+  }
+/**properties of the First-left-div that is in the first div in the  main section of the dasboard page **/
+  .First-left-div{
+    display: grid;
+    float: left ;
+    height: 150px;
+    width: 45%;
+    background-color:#8FDDE7;
+    grid-template-columns: auto auto  auto ;
+    grid-template-rows: 250px 150px 150px ;
+    justify-content:center;
+    margin: 2% 2% 2% 10% ;
+    padding: 5px;
+    text-align: center;
+ 
+    
+  }
+/**properties for the ul in the First-left-div that is in the main section of the page,**/
+  .First-left-div ul{
+      list-style: none;
+      display: inline;
+  }
+/**properties for the lists of the First-left-div  that is in the main section of the page, **/
+.First-left-div li{
+ display: inline;
+
+}
+/**properies for the left-First-left-div that is in the First-left-div on the main section of the page**/
+.left-First-left-div{
+    width:200px ;
+    height:110px;
+    background-color: #8FDDE7;
+    float:left;
+    
+    
+}
+/**properies for the middle-First-left-div that is in the First-left-div on the main section of the page**/
+.middle-First-left-div{
+    width:200px ;
+    height:110px;
+    background-color: #8FDDE7;
+    float:left;
+}
+/**properies for the right-First-left-div that is in the First-left-div on the main section of the page**/
+.right-First-left-div{
+    width:200px ;
+    height:110px;
+    background-color: #8FDDE7;
+    float:right ;
+}
+/**properties for the Continue-Learning div right above the Second-left-div on the main section of the page**/
+.Continue-Learning{
+    margin: 1% 2% 0% 10% ;
+    float: left ;
+    height: 20px;
+    width: 45%;
+    padding: 2px;
+    display: grid;
+    background-color: #B6E5D8;
+}
+/**properties of the Second-left-div on the main section of the page Second-left-div**/
+.Second-left-div{
+    display: grid;
+    float: left ;
+    height: 130px;
+    width: 45%;
+    background-color :#F1502F;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto;
+    justify-content: center;
+    margin: 1% 2% 2% 10% ;
+
+}
+/**properties for the image in the Second-left-div on the main section of the page**/
+.Second-left-div img {
+float: left;
+background-color:#F1502F;
+}
+
+/**properties for the secondsection inside the Second-left-div inside the main section of the page**/
+.sectionB-Second-left-div{
+  height:120px;
+  width:500px;
+  padding : 5px;
+  float:right;
+  background-color: #F1502F;
+}
+/**properties for the paragraphs in the sectionB-Second-left-div  inside the Second-left-div in the main section of the page**/
+.sectionB-Second-left-div p{
+ font-size: small;
+}
+/**properties for the paragraph on the progress bar in the sectionB-Second-left-div  of the Second-left-div  in the main section of the page**/
+.Second-left-div-progress-label{
+ font-size:small;
+}
+/**properties for the Resume button on the sectionB-Second-left-div inside the Second-left-div  on the main section of the  page  **/
+.Second-left-div-Resume-button{
+ border-style: none;
+ height:20px;
+ width:100px;
+ background-color:#5382a1;
+ float:right;
+ border-radius: 30px 30px 30px 30px;
+}
+/**properties for the links in the  Resume button on the sectionB-Second-left-div inside the Second-left-div  on the main section of the  page  **/
+.Second-left-div-Resume-button a{
+ text-decoration: none;
+ color: black;
+}
+/**properties for the Lessons-in-Progress  in the main section of the page**/
+.Lessons-in-Progress{
+    margin: 1% 2% 0% 10% ;
+    float: left ;
+    height: 80px;
+    width: 45%;
+    padding: 2px;
+    display: grid;
+    background-color: #B6E5D8;
+    
+    
+}
+/**properties for the ul in the Lessons-in-Progress on the main section of the page**/
+.Lessons-in-Progress ul{
+ list-style: none;
+ 
+}
+/**properties for the li in the Lessons-in-Progress on the main section of the page**/
+.Lessons-in-Progress li{
+ display: inline;
+}
+/**properties for the Lessons-in-Progress-Web-button on the Lessons-in-Progress in the main section of the page**/
+.Lessons-in-Progress-Web-button{
+    border-style:none;
+    height:30px;
+    width:80px;
+    background-color:#5382a1;
+    float:left;
+    padding: 2px;
+    margin-right:5px;
+    border-radius: 30px 30px 30px 30px;
+}
+/**properties for the links in the Lessons-in-Progress-Web-button  on the main section on the page**/
+.Lessons-in-Progress-Web-button a{
+ text-decoration: none;
+}
+
+/**properties for the Lessons-in-Progress-App-button on the Lessons-in-Progress in the main section of the page**/
+.Lessons-in-Progress-App-button{
+    border-style:none;
+    height:30px;
+    width:80px;
+    background-color:#5382a1;
+    float:left;
+    border-radius: 30px 30px 30px 30px;
+}
+/**properties for the links in the Lessons-in-Progress-App-button  on the main section on the page**/
+.Lessons-in-Progress-App-button a{
+    text-decoration: none;
+}
+/**properties for the Viewall-Lessons-in-Progress link on the Lessons-in-Progress in the main section  **/
+.Viewall-Lessons-in-Progress{
+ text-decoration: none;
+ color: black;
+ float:right;
+ font-family: Arial;
+}
+/**properties for the Third-left-div in the main section of the page **/
+.Third-left-div{
+    display: grid;
+    float: left ;
+    height: 120px;
+    width: 45%;
+    background-color :tomato;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto;
+    justify-content: center;
+    margin: 1% 2% 1% 10% ;
+    
+}
+
+/**properties of the image in Third-left-div  on the main section of the page**/
+.Third-left-div img {
+    float:left;
+    
+}
+/**properties for the progress bar on the Third-left-div on the main section of the page **/
+.SectionB-Third-left-div progress{
+    float:left;
+    margin: 5px;
+    
+}
+
+/**properties  for the SectionB-Third-left-div in the Third-left-div on the main section of the page**/
+.SectionB-Third-left-div{
+    height:120px;
+    width:550px;
+    float:right;
+    background-color: tomato;
+}
+
+/**properties for the Third-left-div-progress-label in the SectionB-Third-left-div of the Third-left-div in the main section of the page**/
+.Third-left-div-progress-label{
+ font-size: small;
+}
+
+
+/**properties for the ul for Third-left-div **/
+.Third-left-div ul{
+ list-style: none;
+ float:right;
+ 
+}
+/**properties for the li in the Third-left-div **/
+.Third-left-div li{
+    display: inline;
+    padding-right: 30px;
+    padding-left: 30px;   
+}
+
+/**properties for the Viewdetails-Third-left-div link in the Third-left-div of the main section on the page**/
+.Viewdetails-Third-left-div{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    
+}
+/**properties for the Third-left-div-Resume-button inside the SectionB-Third-left-div on the Third-left-div of the main section on the page**/
+.Third-left-div-Resume-button{
+    border-style: none;
+    height:20px;
+    width:100px;
+    background-color:#5382a1;
+    border-radius: 30px 30px 30px 30px;
+    float:right;
+}
+/**properties of the Fourth-left-div on the main section on the page **/
+.Fourth-left-div{
+    display: grid;
+    float: left ;
+    height: 120px;
+    width: 45%;
+    background-color :gray;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto;
+    justify-content: center;
+    margin: 0% 2% 1% 10% ;
+}
+/**properties of the image of the Fourth-left-div **/
+.Fourth-left-div img{
+ float: left;
+}
+/**properties for the SectionB-Fourth-left-div  inside  Fourth-left-div on the main section of the page**/
+.SectionB-Fourth-left-div {
+    height:120px;
+    width:550px;
+    float:right;
+    background-color: gray;
+}
+/**properties for the paragraphs in the SectionB-Fourth-left-div on the main section of the page
+.SectionB-Fourth-left-div p{
+ font-size: small;
+}**/
+/**properties for the paragraph on the progress bar on the Fourth-left-div on the main section of the page **/
+.Fourth-left-div-progress-label {
+    font-size: small;
+   }
+/**properties for the progress bar in the SectionB-Fourth-left-div of the Fourth-left-div  on the main section of the page**/
+.Fourth-left-div-progress-label progress{
+ 
+    float:left;
+    margin: 5px;
+    
+}
+/**properties of the ul on the Fourth-left-div that is on the main section of the page **/
+.Fourth-left-div ul{
+    list-style: none;
+    float:right;
+    
+}
+/**properties for the li in the Fourth-left-div  on the main section of the  page**/
+.Fourth-left-div li{
+    display: inline;
+    padding-right: 30px;
+    padding-left: 30px;   
+}
+/**properties for the Viewdetails-Fourth-left-div link on the Fourth-left-div that is on the main section of the page**/
+.Viewdetails-Fourth-left-div{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    
+}
+/**properties for the Fourth-left-div-Resume-button on the Fourth-left-div which is on the main section on the page **/
+.Fourth-left-div-Resume-button{
+    border-style: none;
+    height:20px;
+    width:100px;
+    background-color:#5382a1;
+    border-radius: 30px 30px 30px 30px;
+    float:right;
+}
+/**properties of the Fifth-left-div on the main section on the page **/
+.Fifth-left-div{
+    display: grid;
+    float: left ;
+    height: 120px;
+    width: 45%;
+    background-color :#FFD43B;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto;
+    justify-content: center;
+    margin: 0% 2% 1% 10% ;
+
+}
+/**properties of the image of the Fifth-left-div **/
+.Fifth-left-div img{
+    float: left;
+
+}
+/**properties for the SectionB-Fifth-left-div  inside  Fifth-left-div  on the main section of the page**/
+.SectionB-Fifth-left-div  {
+    height:120px;
+    width:550px;
+    float:right;
+    background-color: #FFD43B;
+
+}
+/**properties for the paragraphs in the SectionB-Fifth-left-div on the main section of the page
+.SectionB-Fifth-left-div p{
+    font-size: small;
+
+}**/
+/**properties for the paragraph on the progress bar on the Fifth-left-div  on the main section of the page **/
+.Fifth-left-div-progress-label {
+    font-size: small;
+
+}
+/**properties for the progress bar in the SectionB-Fifth-left-div of the Fifth-left-div on the main section of the page**/
+.Fifth-left-div-progress-label progress{
+    float:left;
+    margin: 5px;
+    
+}
+/**properties of the ul on the Fifth-left-div that is on the main section of the page **/
+.Fifth-left-div ul{
+    list-style: none;
+    float:right;
+    
+}
+/**properties for the li in the Fifth-left-div  on the main section of the  page**/
+.Fifth-left-div  li{
+    display: inline;
+    padding-right: 30px;
+    padding-left: 30px;   
+}
+
+/**properties for the Viewdetails-Fifth-left-div link on the Fifth-left-div that is on the main section of the page**/
+.Viewdetails-Fifth-left-div{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    
+}
+/**properties for the Fifth-left-div-Resume-button on the Fifth-left-div which is on the main section on the page **/
+.Fifth-left-div-Resume-button{
+    border-style: none;
+    height:20px;
+    width:100px;
+    background-color:#5382a1;
+    border-radius: 30px 30px 30px 30px;
+    float:right;
+}
+/**properties of the small div of Completed-Lessons on the main section of the page**/
+.Completed-Lessons{
+    margin: 0% 2% 0% 10% ;
+    float: left ;
+    height: 80px;
+    width: 45%;
+    padding: 2px;
+    display: grid;
+    background-color: #B6E5D8; 
+}
+/**properties for the ul in the Completed-Lessons on the main section of the page**/
+.Completed-Lessons  ul{
+    list-style: none;
+
+}
+/**properties for the li in the Completed-Lessons on the main section of the page**/
+.Completed-Lessons  li{
+    display: inline;
+
+}
+/**properties for the Completed-Lessons-Web-button on the Completed-Lessons in the main section of the page**/
+.Completed-Lessons-Web-button{
+    border-style:none;
+    height:30px;
+    width:80px;
+    background-color:#5382a1;
+    float:left;
+    margin-right:5px;
+    border-radius: 30px 30px 30px 30px;
+
+}
+/**properties for the links in the Completed-Lessons-Web-button on the main section on the page**/
+.Completed-Lessons-Web-button a{
+ text-decoration: none;
+
+}
+/**properties for the Completed-Lessons-App-button on the Lessons-in-Progress in the main section of the page**/
+.Completed-Lessons-App-button{
+    border-style:none;
+    height:30px;
+    width:80px;
+    background-color:#5382a1;
+    float:left;
+    border-radius: 30px 30px 30px 30px;
+}
+/**properties for the links in the Completed-Lessons-App-button  on the main section on the page**/
+.Completed-Lessons-App-button a{
+    text-decoration: none;
+
+}
+/**properties for the Sixth-left-div on the main section on the page **/
+.Sixth-left-div {
+    display: grid;
+    float: left ;
+    height: 170px;
+    width: 45%;
+    background-color :#B6E5D8;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto;
+    margin: 0.5% 2% 1% 10% ;
+
+}
+/**properties of the SectionB-Sixth-left-div inside the Sixth-left-div  on the main section of the  page**/
+.SectionB-Sixth-left-div  {
+    height:170px;
+    width:100px;
+    float:left;
+    text-align: center;
+    background-color: tomato;
+    
+
+}
+/**properties of the paragraphs on the SectionB-Sixth-left-div on the Sixth-left-div which is on the main section of the page**/
+.SectionB-Sixth-left-div p {
+ font-size: small;
+}
+/**properties of the image in the SectionB-Sixth-left-div on the Sixth-left-div **/
+.SectionB-Sixth-left-div img {
+ border-radius: 50%;
+ align-self: center;
+
+}
+/**properties of the Sixth-left-div-Review-button on the SectionB-Sixth-left-div  in the main section of the page **/
+.Sixth-left-div-Review-button{
+    border-style:none;
+    height:20px;
+    width:80px;
+    background-color:#5382a1;
+    float:bottom;
+    border-radius: 30px 30px 30px 30px;
+    align-self: center;
+
+}
+/**properties of the link on the  Sixth-left-div-Review-button **/
+.Sixth-left-div-Review-button a{
+ text-decoration: none;
+}
+/**properties of the First-right-div on the main section of the page. **/
+.First-right-div{
+    display: grid;
+    width: 27%;
+    height: 200px;
+    float:top;
+    padding: 2px;
+    background-color: #B6E5D8;
+    margin: 2% 9% 2% 2% ;
+    grid-template-columns: auto ;
+    grid-template-rows: auto ;
+    align-content: center;
+    text-align: center;
+    
+}
+/**properties of the SectionB-First-right-div on the First-right-div of the main section of the page. **/
+.SectionB-First-right-div{
+ display: grid;
+ width: 27%;
+ height: 150px;
+ padding: 2px;
+ align-self: center;
+ margin-left: 12px;
+ background-color: #B6E5D8;
+ grid-template-columns: auto auto auto auto auto auto auto ;
+ grid-template-rows: auto auto auto auto ;
+ 
+}
+
+/**properties of the Monday div on the First-right-div on the main section **/
+.Monday{
+  width: 50px;
+  height: 150px;
+  background-color: #8FDDE7;
+  text-align: center;
+
+}
+/**properties of the smaller divs inside the Monday div on the First-right-div**/
+.Monday div{
+    width: 50px;
+    height: 30px;
+    background-color: #B6E5D8;
+    text-align: center;
+}
+
+/**properties of the Tuesday div on the First-right-div on the main section **/
+.Tuesday{
+    width: 50px;
+    height: 150px;
+    background-color: #8FDDE7;
+    text-align: center;
+  }
+  /**properties of the smaller divs inside Tuesday div on the main section **/
+  .Tuesday div{
+      width: 50px;
+      height: 30px;
+      background-color: #B6E5D8;
+      text-align: center;
+  }
+/**properties of the Wednesday div on the First-right-div on the main section **/
+.Wednesday{
+    width: 50px;
+    height: 150px;
+    background-color: #8FDDE7;
+    text-align: center;
+}
+  /**properties of the smaller divs inside Wednesday div on the main section **/
+  .Wednesday div{
+      width: 50px;
+      height: 30px;
+      background-color: #B6E5D8;
+      text-align: center;
+}
+/**properties of the Thursday div on the First-right-div on the main section **/
+.Thursday{
+    width: 50px;
+    height: 150px;
+    background-color: #8FDDE7;
+    text-align: center;
+}
+  /**properties of the smaller divs inside Thursday div on the main section **/
+  .Thursday div{
+      width: 50px;
+      height: 30px;
+      background-color: #B6E5D8;
+      text-align: center;
+}
+/**properties of the Friday div on the First-right-div on the main section **/
+.Friday{
+    width: 50px;
+    height: 150px;
+    background-color: #8FDDE7;
+    text-align: center;
+}
+  /**properties of the smaller divs inside Friday div on the main section **/
+  .Friday div{
+      width: 50px;
+      height: 30px;
+      background-color: #B6E5D8;
+      text-align: center;
+}
+/**properties of the Saturday div on the First-right-div on the main section **/
+.Saturday{
+    width: 50px;
+    height: 150px;
+    background-color: #8FDDE7;
+    text-align: center;
+}
+  /**properties of the smaller divs inside Saturday div on the main section **/
+  .Saturday div{
+      width: 50px;
+      height: 30px;
+      background-color: #B6E5D8;
+      text-align: center;
+}
+/**properties of the Sunday div on the First-right-div on the main section **/
+.Sunday{
+    width: 50px;
+    height: 150px;
+    background-color: #8FDDE7;
+    text-align: center;
+}
+  /**properties of the smaller divs inside Sunday div on the main section **/
+  .Sunday div{
+      width: 50px;
+      height: 30px;
+      background-color: #B6E5D8;
+      text-align: center;
+}
+/**properties of the Second-right-div on the main section of the page. **/
+.Second-right-div{
+    display: grid;
+    width: 27%;
+    height: 100px;
+    float:top;
+    padding: 5px;
+    justify-content: center;
+    text-align: center;
+    background-color: #B6E5D8;
+    margin: 1% 9% 1% 2% ;
+}
+/**properties of the SectionB-Learning-Roadmap on the Second-right-div **/
+.SectionB-Learning-Roadmap{
+    width: 300px;
+    height: 70px;
+    border-style:none;
+}
+/**properties of the third-right-div on the right side of the main section of the page**/
+.third-right-div{
+    display: grid;
+    width: 27%;
+    height: 100px;
+    float:top;
+    padding: 5px;
+    justify-content: center;
+    background-color: #B6E5D8;
+    margin: 1% 9% 1% 2% ;
+    text-align: center;
+
+}
+/**properties for the ul in the third-right-div, on the right side  of the main section of the page**/
+.third-right-div  ul{
+    list-style: none;
+
+}
+/**properties for the li in the third-right-div on the right side  of the main section of the page**/
+.third-right-div  li{
+    display: inline; 
+
+}
+/**properties for the Course-Achievements-Web-button on the Completed-Lessons in the main section of the page**/
+.Course-Achievements-Web-button {
+    border-style:none;
+    height:30px;
+    width:80px;
+    background-color:#5382a1;
+    float:left;
+    margin-right:5px;
+    border-radius: 30px 30px 30px 30px;
+
+}
+/**properties for the links in the Course-Achievements-Web-button  on the main section on the page**/
+.Course-Achievements-Web-button  a{
+ text-decoration: none;
+
+}
+/**properties for the Course-Achievements-App-button on the Lessons-in-Progress in the main section of the page**/
+.Course-Achievements-App-button{
+    border-style:none;
+    height:30px;
+    width:80px;
+    background-color:#5382a1;
+    float:left;
+    border-radius: 30px 30px 30px 30px;
+}
+/**properties for the links in the Course-Achievements-App-button on the main section on the page**/
+.Course-Achievements-App-button a{
+    text-decoration: none;
+
+}
+/**properties of the Fourth-right-div on the main section of the page. **/
+.Fourth-right-div{
+    display: grid;
+    width: 27%;
+    height: 320px;
+    float:top;
+    padding: 2px;
+    background-color:#B6E5D8;
+    margin: 2% 9% 2% 2% ;
+    grid-template-columns: auto ;
+    grid-template-rows: auto ;
+    align-content: center;
+    text-align: center;
+    
+}
+/**properties of the Git-Fourth-right-div on the Fourth-right-div which is on the main section of the page **/
+.Git-Fourth-right-div{
+    width: 380px;
+    height: 60px;
+    padding: 2px;
+    background-color: #F1502F;
+    margin: 2px 2px 2px 2px ;
+}
+/**properties of the image on the Git-Fourth-right-div inside of Fourth-right-div of the main section of the page **/
+.Git-Fourth-right-div img {
+  float: left;
+  border-radius: 50%;
+  margin: 7px ;
+}
+/**properties of the progress bar on the Git-Fourth-right-div inside the Fourth-right-div  of the main section of the page **/
+.Git-Fourth-right-div progress{
+  margin: 3px;
+  
+}
+/**properties of the paragraphs in the Git-Fourth-right-div inside the Fourth-right-div of the main section of the page **/
+.Git-Fourth-right-div p{
+    float:left;
+}
+/**properties of the HTML-Fourth-right-div on the Fourth-right-div which is on the main section of the page  **/
+.HTML-Fourth-right-div{
+    width: 380px;
+    height: 60px;
+    padding: 2px;
+    background-color: tomato;
+    margin: 2px 2px 2px 2px ;
+}
+/**properties of the image on the HTML-Fourth-right-div inside of Fourth-right-div of the main section of the page **/
+.HTML-Fourth-right-div img {
+    float: left;
+    border-radius: 50%;
+    margin: 7px ;
+}
+/**properties of the progress bar on the HTML-Fourth-right-div inside the Fourth-right-div  of the main section of the page **/
+.HTML-Fourth-right-div  progress{
+    margin: 3px;
+    
+}
+/**properties of the paragraphs in the HTML-Fourth-right-div  inside the Fourth-right-div of the main section of the page **/
+.HTML-Fourth-right-div  p{
+    float:left;
+}
+/**properties of the CommandLine-Fourth-right-div on the Fourth-right-div which is on the main section of the page **/
+.CommandLine-Fourth-right-div{
+    width: 380px;
+    height: 60px;
+    padding: 2px;
+    background-color:gray;
+    margin: 2px 2px 2px 2px ;
+}
+/**properties of the image on the CommandLine-Fourth-right-div inside of Fourth-right-div of the main section of the page **/
+.CommandLine-Fourth-right-div img {
+    float: left;
+    border-radius: 50%;
+    margin: 7px ;
+}
+/**properties of the progress bar on the CommandLine-Fourth-right-div inside the Fourth-right-div  of the main section of the page **/
+.CommandLine-Fourth-right-div  progress{
+    margin: 3px;
+    
+}
+/**properties of the paragraphs in the CommandLine-Fourth-right-div inside the Fourth-right-div of the main section of the page **/
+.CommandLine-Fourth-right-div p{
+    float:left;
+}
+/**properties of the Python-Fourth-right-div on the Fourth-right-div of the main section of the page **/
+.Python-Fourth-right-div{
+    width: 380px;
+    height: 60px;
+    padding: 2px;
+    background-color: #FFD43B;
+    margin: 2px 2px 2px 2px ;
+}
+/**properties of the image on the Python-Fourth-right-div  inside of Fourth-right-div of the main section of the page **/
+.Python-Fourth-right-div img {
+    float: left;
+    border-radius: 50%;
+    margin: 7px ;
+}
+/**properties of the progress bar on the Python-Fourth-right-div inside the Fourth-right-div  of the main section of the page **/
+.Python-Fourth-right-div  progress{
+    margin: 3px;
+    
+}
+/**properties of the paragraphs in the Python-Fourth-right-div inside the Fourth-right-div of the main section of the page **/
+.Python-Fourth-right-div  p{
+    float:left;
+}
+/**properties for the footer section on the page**/
+  .footer{
+   width:inherit;
+   height:350px;
+   background-color: #8FDDE7;
+   padding:10px;
+  }
+/**properties of the stores badges on the footer section **/
+.stores{
+    padding:2px;
+    display: inline;
+    font-size:small;
+    height: 100px;
+    width: 150px;
+    margin: 3px;   
+}
+/**properties for the copyright section in the footer of the page**/
+.copy{
+    float:left; 
+    font-size: small;
+}  
+/**properties for the services list in the footer section of the page**/
+.services li{
+    font-size: small;
+}
+/**properties for the support list in the footer section of the page**/
+.support li{
+    font-size: small;
+     
+}
+/**properties for the connect list in the footer section of the page**/
+.connect li{
+    font-size: small;  
+        
+}
+/**properties for the contactus on the footer of the page**/
+.contactus{
+    height:25px;
+    width:80px;
+    float:right;
+    background-color: tomato;
+    border-color: tomato;
+    border-style:outset;
+    font-size:small;
+    padding:2px;
+}
+/**properties for the span element on the page**/
+span{
+    background-color:gray;
+    border-radius: 50%;
+
+}
+/**properties for the closure section on the footer of the page**/
+.closure{
+    height: 50px;
+    width: 1200px;
+    
+}
+/**properties for the info-grid in the footer section that contains the services list, connect list and the support list**/
+.info-grid{
+    display: grid;
+    gap: auto ;
+    column-gap: auto;
+    row-gap: auto;
+    float: center;
+    grid-area: auto;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-content:center;   
+}
+/**properties for all the ul**/
+ul{
+list-style: none;
+}
+/**properties for the links**/
+a{
+    text-decoration: none;
+    color: black;
+}
